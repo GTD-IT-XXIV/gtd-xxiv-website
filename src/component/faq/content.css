@@ -4,7 +4,7 @@
     position: relative;
     /*width: 1193px;*/
 
-    width: 1350px;
+    width: 1450px;
     height: auto;
     min-height: 823px;
     padding-top: 10px;
@@ -24,8 +24,6 @@
 }
 
 .content-flex-container{
-    position: relative;
-
     padding: 15px;
     margin: 15px;
     min-width: 97%;
@@ -35,13 +33,6 @@
     display: flex;
     /*left: 195px;*/
     /*top: 529px;*/
-
-    left: 50%;
-    transform: translateX(-50%);
-
-    padding-bottom: 18px;
-    padding-right: 20px;
-
 }
 
 .content{
@@ -55,44 +46,31 @@
     box-sizing: border-box;
 
     position: absolute;
-    width: 98%;
-    min-height: 98%;
-    top: 28px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: inherit;
+    min-height: 100%;
     /*height: 100%;*/
-    /*transform: scaleX()(103%);*/
+    /*transform: scaleY(103%);*/
 }
 
 .rectangle20#one{
-    border: 9.4px solid #FFFFFF;
-
+    border: 8.4px solid #FFFFFF;
     filter: blur(2.8px);
     border-radius: 10px;
-
-    /*transform: translateX(-50%);*/
-
-
-    z-index: 0;
-
 }
 
 .rectangle20#two{
-    border: 16.8px solid #23f6f6;
+    border: 16.8px solid #33E9E9;
     filter: blur(4.2px);
     border-radius: 10px;
-    z-index: -1;
 }
 
 .rectangle20#three{
     mix-blend-mode: hard-light;
     border: 27.3px solid rgba(51, 233, 198, 0.2);
-    /*box-shadow: inset -2.73px 5.46px 2.73px rgba(255, 255, 255, 0.5);*/
-    box-shadow: inset 2.73px -5.46px 2.73px rgba(255, 255, 255, 0.5);
+    box-shadow: inset -2.73px 5.46px 2.73px rgba(255, 255, 255, 0.5);
     /*filter: drop-shadow(0px 42px 54.6px #009999) drop-shadow(0px 27.3px 21px rgba(0, 77, 70, 0.7));*/
     filter: drop-shadow(0px 42px 54.6px #009999);
     border-radius: 10px;
-    z-index: -2;
 }
 
 .rectangle20#four{
@@ -100,7 +78,6 @@
     border: 35.7px solid #00A8A8;
     filter: blur(42px);
     border-radius: 10px;
-    z-index: -3;
 }
 
 .rectangle20#five{
@@ -108,16 +85,6 @@
     border: 27.3px solid #00A8A8;
     filter: blur(126px);
     border-radius: 10px;
-    z-index: -4;
-}
-
-.rectangle20#six{
-    mix-blend-mode: hard-light;
-    border: 35.7px solid #365760;
-    background-color: #365760;
-    filter: blur(420px);
-    border-radius: 10px;
-    z-index: -5;
 }
 
 .ellipseContent{
@@ -125,8 +92,8 @@
     /*width: 1431.6px;*/
     /*height: 987.6px;*/
 
-    width: 100%;
-    min-height: 100%;
+    width: 120%;
+    min-height: 120%;
     top: -40px;
 
     left: 50%;
@@ -138,8 +105,6 @@
 
     mix-blend-mode: hard-light;
     filter: blur(126px);
-
-    z-index: -6;
 }
 
 /*.rectangleContent{*/
@@ -159,18 +124,15 @@
 .contact-us{
     /*box-sizing: border-box;*/
 
-
     flex-grow: 9;
     flex-direction: column;
 
     /*width: 479px;*/
     /*height: 754px;*/
-    margin-top: 15px;
-    margin-bottom: 15px;
 
     background: rgba(65, 233, 202, 0.83);
     border-radius: 10px;
-    /*margin: 5px;*/
+    margin: 5px;
 
     text-align: center;
     /*justify-content: center;*/
@@ -178,7 +140,7 @@
 
     display: flex;
 
-    /*z-index: 20;*/
+    z-index: 20;
 }
 
 .contact-us p{
@@ -238,28 +200,26 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
     /*position: relative;*/
 
-    /*padding-top: 10px;*/
-    /*padding-bottom: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .faq-box Button{
     height:168px;
     /*width: 624px;*/
     position: relative;
-    width: 92%;
+    width: 88%;
 
     background: rgba(98, 182, 201, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: none;
-    margin-top: 15px;
-
-    /*already a built in bottom margin: 8px,*/
-    margin-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     color: black;
     font-family: "Suicide Squad Font";
@@ -293,25 +253,20 @@
 .faq-box Button:hover{
     background-color: rgba(98, 182, 201, 0.93);
     box-shadow: none;
-    color: black;
     transform: scale(1.02);
 }
 .faq-box Button[aria-expanded="true"]{
     background-color: rgba(98, 182, 201, 0.93);
     box-shadow: none;
-    color: black;
-
 }
 .faq-box Button[aria-expanded="false"]{
     background-color: rgba(98, 182, 201, 0.93);
     box-shadow: none;
-    color: black;
-
 }
 
 .collapse-text-general{
     position: relative;
-    margin: 8px 4% 8px;
+    margin: 6px 6% 12px;
 
     padding: 8px;
     border-radius: 10px;
@@ -319,114 +274,3 @@
     text-align: center;
 }
 
-
-
-@media screen and (max-width: 1355px){
-
-    .rectangle20{
-        top: 8px;
-    }
-
-    .content-box{
-        position: relative;
-        width: 82%;
-        padding-left: 4px;
-    }
-
-    .content-flex-container{
-        position: relative;
-
-        padding: 30px;
-        margin: 0;
-        /*min-width: 90%;*/
-        /*min-height: 97%;*/
-        height: auto;
-        width: 80%;
-        display: flex;
-        flex-direction: column-reverse;
-        /*left: 195px;*/
-        /*top: 529px;*/
-        flex-wrap: wrap;
-
-        left: 50%;
-        transform: translateX(-50%);
-
-        padding-bottom: 70px;
-    }
-
-    .contact-us{
-        flex-grow: 9;
-        flex-direction: column;
-
-
-        min-width: 92%;
-        /*height: 100%;*/
-        margin: 30px auto 15px;
-
-        display: flex;
-    }
-
-    .contact-us .iframe-flex-container{
-        height: auto;
-        flex-grow: 1;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .contact-us .iframe-box{
-        position: relative;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        /*height: 660px;*/
-        height: auto;
-    }
-
-    .contact-us iframe{
-        width: 100%;
-        height: 680px;
-    }
-
-    .faq-box    {
-        position: relative;
-        /*left: -14px;*/
-        /*margin: auto;*/
-        /*width: 92%;*/
-    }
-
-    .collapse-container{
-        min-width: 0;
-        /*width: 200px;*/
-    }
-
-
-}
-
-@media screen and (max-width: 840px) {
-    .content-box{
-        width: 96%;
-        padding-left: 4px;
-    }
-
-    .faq-box{
-        flex-grow: 10;
-        /*background: red;*/
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-us{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .contact-us p{
-        font-size: 54px;
-    }
-}

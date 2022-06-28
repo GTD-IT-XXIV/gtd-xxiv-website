@@ -45,11 +45,9 @@ export default function FAQ(props) {
                               </iframe>
                           </div>
                       </div>
-                      {/*<div className="rectangle15"/>*/}
                   </div>
 
                   <div className="content faq-box">
-                      {/*<div className="boxes-wrapper">*/}
 
                           <MyCollapse open={firstBoxOpen} setOpen={setFirstBoxOpen} buttonText="click" collapseText="ඞඞඞඞඞඞඞඞඞඞඞ ඞඞඞඞඞ ඞඞඞඞ ඞඞඞඞඞඞ ඞඞඞඞඞඞ ඞඞඞඞඞ! ඞඞඞඞඞඞඞඞඞඞඞඞඞඞ ඞඞඞඞඞ ඞඞඞඞ ඞඞඞඞඞඞ ඞඞඞඞඞඞ ඞඞඞඞඞ! ඞඞඞ ඞඞඞඞඞඞ ඞඞඞ ඞඞ"/>
 
